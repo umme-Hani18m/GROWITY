@@ -1,4 +1,4 @@
-# GROWITY 🌱
+# GROWITY 
 
 **A platform built to connect, support, and empower children through communities that care.**
 
