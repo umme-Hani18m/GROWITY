@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.vercel/
+
+# Environment files (keep only the safe template)
+.env*
+!.env.example
+
+# Supabase local CLI state (may reveal project metadata)
+supabase/.temp/
+
+# Generated files and logs
+*.tsbuildinfo
+*.log
+pnpm-debug.log*
+.DS_Store

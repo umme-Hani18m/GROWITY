@@ -1,0 +1,1398 @@
+{
+  "Common": {
+    "brand": "Growity",
+    "skipToContent": "Skip to main content",
+    "home": "Home",
+    "help": "Help and FAQ",
+    "laws": "Laws in plain words",
+    "child": "Child",
+    "parent": "Parent",
+    "ngo": "NGO",
+    "team": "Growity Team",
+    "language": "Language",
+    "languageEnglish": "English",
+    "languageHindi": "हिन्दी",
+    "childline": "Childline 1098 (free, 24x7)",
+    "whatIsThis": "What is this page?",
+    "lawsBehind": "Laws behind this page",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "childSafety": "Child Safety and Reporting Policy",
+    "contact": "Contact",
+    "disclaimer": "Growity is not an adoption agency and does not choose a child, place a child, grant an adoption, or provide legal advice. Legal adoption happens through CARA's CARINGS portal, Specialised Adoption Agencies, Child Welfare Committees, and the District Magistrate.",
+    "legalNote": "This information is for general guidance, not legal advice. Please verify exact dates with the official gazette and consult qualified professionals.",
+    "learnMore": "Learn more",
+    "showLess": "Show less",
+    "quickExit": "Quick exit",
+    "quickExitTitle": "Leave this page quickly",
+    "quickExitBody": "This clears your Growity session and takes you to a neutral page. It replaces this page in your browser history.",
+    "privateBrowsingTip": "For extra privacy, use a private browsing window and close it when you are done.",
+    "exitNow": "Leave now",
+    "exitComplete": "You have left Growity.",
+    "returnHome": "Return to Growity home",
+    "sessionNotice": "Private information is shown only after your identity and access are verified.",
+    "setupRequired": "This secure feature is not connected yet. No private action was completed. Please contact the Growity team for help.",
+    "noRecords": "No records are available here yet.",
+    "required": "Required",
+    "optional": "Optional",
+    "processing": "Working…",
+    "saved": "The update was recorded.",
+    "save": "Save",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "email": "Email address",
+    "phone": "Phone number",
+    "state": "State or Union Territory",
+    "consent": "I agree to the privacy notice and understand who can see the information I submit.",
+    "consentRequired": "Please read and accept the consent statement before continuing.",
+    "otpCode": "One-time code",
+    "verifyCode": "Verify code",
+    "otpPrompt": "Enter the code sent to {email}.",
+    "documentUploaded": "Your document was uploaded securely.",
+    "downloadDocument": "Download file",
+    "uploading": "Uploading...",
+    "documentFile": "Choose a PDF, JPG, or PNG file",
+    "downloadData": "Download my data",
+    "requestDeletion": "Request deletion of non-legal data",
+    "openHelp": "Get help",
+    "footerNote": "A clear, careful place for information and records. Not a substitute for official legal processes.",
+    "homePageTitle": "Growity: clear information, careful support",
+    "verificationPending": "This request is awaiting an authorised staff review.",
+    "exitConfirmation": "Leave Growity now? Your current session will be cleared.",
+    "showPassword": "Show PIN",
+    "hidePassword": "Hide PIN",
+    "back": "Back",
+    "continue": "Continue",
+    "status": "Status",
+    "requestFailed": "We could not complete that request. Please try again or contact the Growity team.",
+    "otpSent": "If the account is eligible, an email sign-in code has been sent.",
+    "captchaLabel": "Complete the security check",
+    "notFound": "This page could not be found.",
+    "close": "Close",
+    "open": "Open",
+    "on": "On",
+    "off": "Off",
+    "emailSetupRequired": "Email sign-in is not connected yet. It needs a Supabase Auth project, CAPTCHA, and a configured email sender. No code was sent.",
+    "otpDeliveryFailed": "We could not start email sign-in. Check the email address and try again; if it continues, the email service may not be configured.",
+    "otpVerifyFailed": "That code could not be verified. Check that it is current and try again, or request a new code.",
+    "openPortal": "Open this portal",
+    "volunteering": "Volunteering",
+    "menu": "Menu",
+    "getStarted": "Get started",
+    "startChild": "Child or young person",
+    "startParent": "Parent",
+    "startNgo": "NGO",
+    "startTeam": "Growity team",
+    "password": "Password",
+    "resendCode": "Resend code",
+    "resendIn": "Resend available in {seconds}s",
+    "otpWrong": "That code is not correct. Check the six digits and try again.",
+    "otpExpired": "That code has expired. Request a new code.",
+    "otpTooMany": "Too many attempts. Wait before requesting or entering another code.",
+    "captchaMissing": "The security check is not connected yet. No code was sent."
+  },
+  "Home": {
+    "demoNotice": "DEMO PREVIEW: GROWITY is for demonstration only. It is not an operational child-welfare service, and no legal, placement, or protection activity is currently carried out through this website.",
+    "title": "A clearer path through care and support.",
+    "intro": "Growity helps children, families, NGOs, and care teams understand processes and keep track of important records. It makes room for questions, support requests, and confidential reporting. Official adoption decisions stay with the authorities created by law.",
+    "slideshowLabel": "Licensed community photographs",
+    "slides": [
+      {
+        "label": "Photo space 1 of 3",
+        "image": "/images/home/slide-1.webp",
+        "empty": "",
+        "alt": "Children playing football on a green field"
+      },
+      {
+        "label": "Photo space 2 of 3",
+        "image": "/images/home/slide-2.webp",
+        "empty": "",
+        "alt": "A child smiling at a school lunch table"
+      },
+      {
+        "label": "Photo space 3 of 3",
+        "image": "/images/home/slide-3.webp",
+        "empty": "",
+        "alt": "A group of smiling children looking toward the camera"
+      }
+    ],
+    "pause": "Pause slideshow",
+    "play": "Play slideshow",
+    "previous": "Previous photo space",
+    "next": "Next photo space",
+    "slideCount": "Photo space {current} of {total}",
+    "fosterInterestTitle": "Interested in fostering?",
+    "fosterInterestIntro": "Share a few contact details and consent. We do not ask for documents or make an eligibility decision here. A staff member can pass your interest to the district child protection unit and record the Child Welfare Committee's decision on your status tracker.",
+    "fullName": "Your name",
+    "contactChoice": "Phone or email",
+    "stateChoice": "Choose a state or Union Territory",
+    "fosterFormConsent": "I agree that Growity may use these contact details to pass my fostering interest to the district child protection unit and record follow-up. I understand who can see this information.",
+    "submitInterest": "Share my interest",
+    "formSubmitted": "Thank you. Your interest has been recorded for staff follow-up.",
+    "formError": "We could not record your interest. Please try again later or contact the Growity team.",
+    "formUnavailable": "This form is not connected to a secure service yet. Please use the contact page instead.",
+    "fosterNoFiles": "Please do not attach documents or sensitive information.",
+    "audienceTitle": "How do you want to use Growity?",
+    "audiences": [
+      {
+        "title": "Child",
+        "description": "Ask for help, make a report, or see your own records.",
+        "href": "/child",
+        "openLabel": "Go to child sign-in",
+        "details": [
+          "Your assigned caseworker gives you your short code and 6-digit PIN in person. A PIN cannot be reset online.",
+          "Use your own account to report a concern, check its status, see your documents, or request support.",
+          "Your NGO and foster family cannot read your confidential safety reports. Call Childline 1098 if you need urgent help."
+        ]
+      },
+      {
+        "title": "Parent",
+        "description": "Prepare for the official process and track your own application.",
+        "href": "/parent",
+        "openLabel": "Go to parent sign-in",
+        "details": [
+          "Create an account with an email one-time code and use the checklist, preparation resources, and private document locker.",
+          "Only authorised staff can review your documents. Status updates follow the official CARINGS process.",
+          "Parents cannot browse or choose children in Growity. Child details are shown only after an official CARINGS referral.",
+          "You can share a fostering interest without uploading documents or making an eligibility decision here."
+        ],
+        "fosterInterest": true
+      },
+      {
+        "title": "NGO",
+        "description": "Find verified organisations or use an approved organisation account.",
+        "href": "/ngo",
+        "openLabel": "Go to NGO options",
+        "details": [
+          "Only an NGO verified by Growity can sign in and access its own organisation records.",
+          "Approved NGO accounts can record entries with a CWC order reference, submit counts, and manage compliance documents.",
+          "An NGO cannot read complaints submitted by children in its care. Funding requests need approval from two different administrators.",
+          "Universities and registered organisations can explore the separate supervised volunteering pathway."
+        ]
+      },
+      {
+        "title": "Growity Team",
+        "description": "Use staff tools only after your role and access are verified.",
+        "href": "/team",
+        "openLabel": "Go to team sign-in",
+        "details": [
+          "Staff access requires a verified role, multi-factor authentication, and the staff confidentiality agreement.",
+          "Caseworkers and protection officers see only records assigned to them; grievance content is limited to its assigned reviewer.",
+          "Administrators manage accounts and organisations but cannot read child complaints or staff grievances."
+        ]
+      }
+    ],
+    "calloutTitle": "Know a child in need? Call 1098.",
+    "calloutBody": "Childline 1098 is free and available 24 hours a day, 7 days a week. If a child is in immediate danger, contact local emergency services too.",
+    "verifiedNote": "Before any photo is added, it must be licensed and have a signed model release. No child-identifying image is used here.",
+    "partnersPlaceholder": "Partners",
+    "lawTeaser": "Need a legal term or date? The complete plain-language reference is on the Laws page."
+  },
+  "PageInfo": {
+    "home": "Choose a role to see the information and private sign-in path meant for you.",
+    "child": "This area lets a child ask for help, report a concern, and reach their own records after secure sign-in.",
+    "report": "Use this form to tell the authorised protection team about a concern. If anyone is in immediate danger, call 1098 or local emergency services now.",
+    "documents": "This page is for a signed-in person to see documents they are authorised to access.",
+    "support": "This page lets a child ask their care team about foster care or other support.",
+    "parent": "This page explains parent preparation and secure account access. Growity cannot refer or match a child.",
+    "parentDocuments": "This page is for a verified parent to submit and track their own required documents.",
+    "parentArchive": "This private archive contains official documents and photos only after a District Magistrate adoption order is recorded.",
+    "afterCare": "This private area lets adults who have left care access their own records, download their data, and ask staff to review deletion of non-legal data.",
+    "parentResources": "These plain-language resources support preparation; official registration is through CARINGS.",
+    "ngo": "This page lists verified organisations, explains approved NGO account access, and links to the supervised volunteering pathway.",
+    "team": "Staff tools are available only to verified team members with the assigned role and access.",
+    "help": "Find answers, contact details, and urgent support information.",
+    "laws": "This page explains the laws and terms referred to on Growity in plain words.",
+    "policy": "This page explains Growity website practices and service limits in plain language. It is not legal advice.",
+    "volunteering": "This page explains how universities and registered organisations can ask about supervised volunteer programmes with verified partners."
+  },
+  "Laws": {
+    "heading": "Laws and terms in plain words",
+    "note": "Dates and summaries below are supplied for public information and must be checked against the official gazette. This is not legal advice.",
+    "items": [
+      {
+        "title": "Hindu Adoptions and Maintenance Act, 1956",
+        "date": "In force 21 December 1956",
+        "plain": "Covers Hindus, Buddhists, Jains, and Sikhs."
+      },
+      {
+        "title": "Guardians and Wards Act, 1890",
+        "date": "1890",
+        "plain": "Provides for guardianship, not full adoption, for Muslims, Christians, Jews, and Parsis."
+      },
+      {
+        "title": "Juvenile Justice (Care and Protection of Children) Act, 2015",
+        "date": "In force 15 January 2016",
+        "plain": "Covers all religions. It provides for Child Welfare Committees, registration of child care institutions, and offences including illegal adoption."
+      },
+      {
+        "title": "Juvenile Justice Amendment Act, 2021",
+        "date": "In force 1 September 2022",
+        "plain": "The District Magistrate issues adoption orders."
+      },
+      {
+        "title": "Adoption Regulations, 2022",
+        "date": "2022",
+        "plain": "Detailed rules for adoption through CARA."
+      },
+      {
+        "title": "Model Foster Care Guidelines, 2024",
+        "date": "2024",
+        "plain": "Guidance on foster care procedure."
+      },
+      {
+        "title": "POCSO Act, 2012",
+        "date": "In force 14 November 2012; amended 2019; Rules 2020",
+        "plain": "Every person must report child sexual abuse."
+      },
+      {
+        "title": "Digital Personal Data Protection Act, 2023",
+        "date": "Assent 11 August 2023; Rules notified 13 November 2025",
+        "plain": "The children's data rules apply from 13 May 2027."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "CARA",
+        "meaning": "The national adoption authority created by the 2015 Act."
+      },
+      {
+        "term": "CARINGS",
+        "meaning": "CARA's online portal where parents register and are shown children legally free for adoption."
+      },
+      {
+        "term": "SAA",
+        "meaning": "A Specialised Adoption Agency recognised by a State Government to place children in adoption."
+      },
+      {
+        "term": "CWC",
+        "meaning": "A district Child Welfare Committee that decides what a child needing care requires, including whether a child is legally free for adoption."
+      },
+      {
+        "term": "Legally free for adoption",
+        "meaning": "A legal status decided by the competent Child Welfare Committee, not by Growity."
+      },
+      {
+        "term": "CCI",
+        "meaning": "A Child Care Institution, such as a children's home, that must be registered."
+      },
+      {
+        "term": "PAP",
+        "meaning": "Prospective adoptive parent."
+      },
+      {
+        "term": "Home Study Report",
+        "meaning": "A report prepared as part of the official assessment of prospective adoptive parents."
+      },
+      {
+        "term": "Child Study Report and Medical Examination Report",
+        "meaning": "Official reports used in the regulated adoption process."
+      },
+      {
+        "term": "Referral and reservation",
+        "meaning": "An official referral through CARINGS; in-country parents get 48 hours to reserve."
+      },
+      {
+        "term": "Pre-adoption foster care",
+        "meaning": "Care with the prospective adoptive family before the adoption order, as allowed by the official process."
+      },
+      {
+        "term": "Adoption order",
+        "meaning": "An order issued by the District Magistrate."
+      },
+      {
+        "term": "Post-adoption follow-up",
+        "meaning": "Follow-up that may continue for up to two years."
+      },
+      {
+        "term": "DCPU",
+        "meaning": "District Child Protection Unit."
+      },
+      {
+        "term": "Foster care",
+        "meaning": "A child lives with a family for a period while remaining legally connected to their birth family."
+      },
+      {
+        "term": "POCSO",
+        "meaning": "The Protection of Children from Sexual Offences Act."
+      },
+      {
+        "term": "Childline 1098",
+        "meaning": "A free child helpline available 24 hours a day, 7 days a week."
+      },
+      {
+        "term": "Verifiable consent",
+        "meaning": "Consent that can be checked against the person authorised to give it."
+      }
+    ],
+    "verifyGazette": "Verify exact date with the official gazette."
+  },
+  "Child": {
+    "title": "A safe place to ask for help",
+    "intro": "You can report a problem, check your own report, see your documents, or ask for support. If you need help right now, call 1098.",
+    "loginTitle": "Sign in with your short code",
+    "codeLabel": "Your short code",
+    "pinLabel": "Your 6-digit PIN",
+    "loginButton": "Sign in",
+    "dashboardTitle": "Your private space",
+    "dashboardIntro": "Only you and authorised staff can see these summaries.",
+    "dashboardReports": "Reports",
+    "dashboardDocuments": "Documents",
+    "dashboardSupport": "Support requests",
+    "dashboardOpen": "Open your private space",
+    "dashboardReturn": "Return to child sign-in",
+    "emailOtp": "Continue with email code",
+    "pinReset": "For a PIN reset, speak to your caseworker in person. It cannot be reset online.",
+    "audioHelp": "Play this page aloud",
+    "reportTitle": "Report a problem",
+    "reportDescription": "Only authorised protection staff can see your report. Your NGO or foster family cannot read it.",
+    "categoryLabel": "What is the problem about?",
+    "categories": [
+      "Abuse",
+      "Harassment",
+      "Neglect",
+      "Food or health",
+      "Education",
+      "Something else"
+    ],
+    "detailsLabel": "Tell us what happened or what you need",
+    "urgentLabel": "I need help urgently",
+    "urgencyLabel": "How urgent is this?",
+    "urgencies": [
+      "Normal",
+      "Serious",
+      "Emergency: I need help urgently"
+    ],
+    "urgentHelp": "If you may be in immediate danger, call Childline 1098 or local emergency services now.",
+    "confidentialConsent": "I understand this report is confidential and will be shared only with authorised people who need to help.",
+    "submitReport": "Send my report",
+    "statusTitle": "My reports",
+    "documentsTitle": "My documents",
+    "educationRecord": "Education record",
+    "careRecord": "Record from when I entered care",
+    "uploadEducation": "Upload an education record",
+    "uploadTitle": "Add a document",
+    "uploadType": "Document type",
+    "documentConsent": "I understand that this record is private and can be seen only by me and staff assigned to help me.",
+    "noDocuments": "No documents are available in this locker yet.",
+    "supportTitle": "Ask for foster care or support",
+    "supportTopics": [
+      "Foster care",
+      "Other support"
+    ],
+    "supportDescription": "Your request goes to your assigned care team. It does not make a placement decision.",
+    "requestSupport": "Send a support request",
+    "reportSubmitted": "Your report was sent to the authorised protection team.",
+    "urgentFollowUp": "If you are in immediate danger or need help now, call Childline 1098 or local emergency services.",
+    "supportSubmitted": "Your request was sent to your care team.",
+    "reportStatus": "Status",
+    "reportStatuses": [
+      "Open",
+      "Under review",
+      "Action taken",
+      "Closed"
+    ],
+    "noReports": "You have not sent any reports yet.",
+    "supportStatusTitle": "My support requests",
+    "supportStatuses": [
+      "Open",
+      "Under review",
+      "Resolved",
+      "Closed"
+    ],
+    "noSupportRequests": "You have not sent any support requests yet.",
+    "audioUnavailable": "Audio is not available on this device. You can ask a trusted adult to read this page with you.",
+    "languageSafety": "If these words are difficult, ask a trusted adult or call 1098.",
+    "adultAfterCareTitle": "For adults who have left care",
+    "adultAfterCareIntro": "After staff have checked your identity in person, sign in with the one-time code enabled for your account. You can see and download your own data and ask staff to review deletion of information that is not legally required.",
+    "afterCareRecordsTitle": "Your care records",
+    "afterCareRecordStatus": "Care status",
+    "afterCareCwcOrderReference": "CWC order reference",
+    "afterCareLegalName": "Legal name on record",
+    "afterCareBirthDate": "Date of birth on record",
+    "afterCareBackground": "Background record",
+    "afterCareDocumentsTitle": "Your documents",
+    "afterCareComplaintsTitle": "Reports you submitted",
+    "afterCareSupportTitle": "Your support requests",
+    "afterCareConsentsTitle": "Your consent records",
+    "afterCareDataRightsTitle": "Your data-rights requests",
+    "afterCareReviewedAt": "Staff review date",
+    "afterCareConsentTypeOptions": [
+      {
+        "value": "parent_signup",
+        "label": "Parent account signup"
+      },
+      {
+        "value": "document_upload",
+        "label": "Document upload"
+      },
+      {
+        "value": "ngo_onboarding",
+        "label": "NGO onboarding"
+      },
+      {
+        "value": "child_onboarding_guardian",
+        "label": "Guardian consent for child onboarding"
+      },
+      {
+        "value": "child_complaint",
+        "label": "Child report consent"
+      },
+      {
+        "value": "adult_after_care_first_login",
+        "label": "Adult after-care first sign-in"
+      },
+      {
+        "value": "staff_code_conduct",
+        "label": "Staff code of conduct"
+      },
+      {
+        "value": "foster_interest",
+        "label": "Fostering interest"
+      }
+    ],
+    "afterCareStatusOptions": [
+      {
+        "value": "in_care",
+        "label": "In care"
+      },
+      {
+        "value": "foster_care",
+        "label": "Foster care"
+      },
+      {
+        "value": "adoption_process",
+        "label": "Adoption process"
+      },
+      {
+        "value": "left_care",
+        "label": "Left care"
+      },
+      {
+        "value": "closed",
+        "label": "Closed"
+      }
+    ],
+    "afterCareSupportTopicOptions": [
+      {
+        "value": "foster_care",
+        "label": "Foster care"
+      },
+      {
+        "value": "other_support",
+        "label": "Other support"
+      }
+    ],
+    "afterCareSupportStatusOptions": [
+      {
+        "value": "open",
+        "label": "Open"
+      },
+      {
+        "value": "reviewing",
+        "label": "Under review"
+      },
+      {
+        "value": "resolved",
+        "label": "Resolved"
+      },
+      {
+        "value": "closed",
+        "label": "Closed"
+      }
+    ],
+    "afterCareDocumentTypeOptions": [
+      {
+        "value": "education",
+        "label": "Education record"
+      },
+      {
+        "value": "care_record",
+        "label": "Care record"
+      },
+      {
+        "value": "other",
+        "label": "Other document"
+      }
+    ],
+    "afterCareDataRightTypeOptions": [
+      {
+        "value": "download",
+        "label": "Data download"
+      },
+      {
+        "value": "delete_non_legal_data",
+        "label": "Deletion of non-legal data"
+      },
+      {
+        "value": "legal_record_access",
+        "label": "Legal-record access"
+      }
+    ],
+    "afterCareDataRightStatusOptions": [
+      {
+        "value": "submitted",
+        "label": "Submitted"
+      },
+      {
+        "value": "reviewing",
+        "label": "Under review"
+      },
+      {
+        "value": "approved",
+        "label": "Approved"
+      },
+      {
+        "value": "rejected",
+        "label": "Rejected"
+      },
+      {
+        "value": "completed",
+        "label": "Completed"
+      }
+    ],
+    "adultAfterCareConsent": "I accept the Adult After-Care Terms and understand the data retention notice.",
+    "adultAfterCareVerified": "Your account is verified. Your after-care records are available in the private area.",
+    "smsOtpLater": "Use email one-time codes for adult after-care access. SMS is not used here.",
+    "smsOtpEnabled": "SMS one-time codes are enabled for this instance and require a configured provider.",
+    "smsOtp": "Continue with SMS code",
+    "smsOtpPrompt": "Enter the code sent to {phone}.",
+    "pinSource": "Your caseworker gives you your short code and 6-digit PIN in person. Keep them private.",
+    "accountSetupTitle": "Create your child account safely",
+    "accountSetupIntro": "Child accounts are created by a verified caseworker or care-home staff member. You do not need to enter your legal name or birth date on this page.",
+    "accountSetupSteps": [
+      "Ask your caseworker or care-home staff to create an account for you.",
+      "They will check the required consent, choose your language, and give you a short code plus a 6-digit PIN in person.",
+      "Use those details below. Never share your PIN in a message or with another person."
+    ],
+    "accountSetupHelp": "If you do not have a caseworker or feel unsafe asking for help, call Childline 1098. A child account is not created from a public form.",
+    "adultAfterCareEligibility": "This area is for people aged 18 or over who previously lived in care, including people who were later adopted from care. Staff must verify your identity and confirm that the account belongs to you before any record is shown.",
+    "newAccountTitle": "I'm new: create my account",
+    "newAccountIntro": "This form starts a safe request; it does not create a login. A trusted caseworker or care-home worker will meet you privately, check the right consent, and give you a short code and 6-digit PIN in person.",
+    "nicknameLabel": "First name or nickname",
+    "ageRangeLabel": "Age range",
+    "ageUnder13": "Under 13",
+    "age13to17": "13–17",
+    "safeContactLabel": "A safe way to contact you (optional)",
+    "safeContactHelp": "Only share a number or email if it is safe for you to receive a reply.",
+    "caseworkerKnownLabel": "I know a caseworker, care-home worker, or trusted adult who can help confirm this request.",
+    "newAccountConsent": "I understand that this request will be reviewed by authorised child-protection staff and will not create a login by itself.",
+    "requestAccount": "Ask for a child account",
+    "requestReceived": "Your request was sent. A caseworker will contact you through a safe channel and meet you before issuing a code or PIN.",
+    "adultPathwayTitle": "Which after-care path describes you?",
+    "adultPathwayInCare": "I was in care and I am now 18+",
+    "adultPathwayAdopted": "I was adopted and I am now 18+",
+    "adultIdentityTitle": "Request adult after-care access",
+    "adultIdentityIntro": "Tell us a few details so authorised staff can verify your identity. You will receive the same neutral message whether or not the details match a record.",
+    "fullNameLabel": "Full name",
+    "dateOfBirthLabel": "Date of birth",
+    "careOrganisationLabel": "NGO or care home (if known)",
+    "milestoneYearLabel": "Year you left care or were adopted",
+    "adultIdentityConsent": "I understand that staff will use these details only to verify an adult after-care request and will not show records until identity checks are complete.",
+    "submitIdentityRequest": "Send verification request",
+    "identityRequestReceived": "If your details match, a code has been sent.",
+    "adultEmailOnly": "After staff verification, use the verified email address to request a one-time code.",
+    "handoffCode": "Short code",
+    "handoffPin": "One-time 6-digit PIN",
+    "handoffWarning": "Show these details only to the person receiving the account. They will not be shown again after you leave this page."
+  },
+  "Parent": {
+    "title": "Prepare for the official process",
+    "intro": "Growity can help you understand the process and track your own documents. Parent registration, referral, and adoption decisions happen through the official CARINGS process and public authorities.",
+    "loginTitle": "Parent sign-in",
+    "emailOtp": "Continue with email code",
+    "signup": "Create a parent account",
+    "signupConsent": "I accept the Parent Terms and Privacy Policy and understand which staff roles may see my account and documents.",
+    "parentVerified": "Your account is verified. Sign in again later to see your private tracker and documents.",
+    "documentsTitle": "Your document checklist",
+    "documents": [
+      "Identity document",
+      "Address proof",
+      "Income documents",
+      "Medical documents",
+      "Police verification"
+    ],
+    "uploadTitle": "Upload a required document",
+    "uploadType": "Document type",
+    "uploadConsent": "I consent to upload this document. It is private and may be seen only by me and the authorised staff roles shown above.",
+    "documentPending": "Awaiting verification",
+    "documentVerified": "Verified",
+    "documentRejected": "Needs follow-up",
+    "noDocuments": "No private documents have been uploaded yet.",
+    "visibilityTitle": "Who can see your documents?",
+    "visibilityBody": "Only you and the authorised verification team, caseworker, and staff assigned to the relevant step can access a document. Each upload requires a separate consent.",
+    "trackerTitle": "Your process tracker",
+    "trackerSteps": [
+      "Documents submitted",
+      "Documents verified",
+      "In-person check done",
+      "CARINGS registration number added by staff",
+      "Home study done",
+      "Child referred by CARINGS",
+      "Child reserved",
+      "Pre-adoption foster care",
+      "Adoption order issued by the District Magistrate",
+      "Post-adoption follow-up reminders for 2 years"
+    ],
+    "noBrowse": "Parents cannot browse or choose children in Growity. Child details are available only to the referred family and authorised staff after an official CARINGS referral. Child photos or media are not shown before the adoption order is recorded.",
+    "preferences": "Optional religion and age preferences are visible only to authorised staff for counselling support. They are never used as a search filter.",
+    "resourcesTitle": "Preparation resources",
+    "resources": [
+      "Document checklist",
+      "CARINGS registration walkthrough",
+      "Counselling resources",
+      "Frequently asked questions",
+      "Common myths"
+    ],
+    "retentionTitle": "Your information and retention",
+    "retentionBody": "You can ask for a copy of your data and request deletion of information that is not legally required. A staff member reviews deletion requests. The legal retention period is still to be set by a lawyer.",
+    "archiveTitle": "Your official post-adoption archive",
+    "archiveLocked": "Official documents and photographs appear here only after a District Magistrate adoption order is recorded.",
+    "orderRecorded": "Adoption order recorded",
+    "orderDocument": "District Magistrate adoption order",
+    "officialPhoto": "Official archive photograph",
+    "noTrackerEvents": "No staff-updated steps are available yet.",
+    "preferencesTitle": "Optional counselling preferences",
+    "preferredReligion": "Religion (optional)",
+    "preferredAgeMin": "Youngest age (optional)",
+    "preferredAgeMax": "Oldest age (optional)",
+    "savePreferences": "Save counselling preferences",
+    "preferencesSaved": "Your preferences were saved for counselling support only. They are not used as search filters.",
+    "emailHelp": "Enter an email address you can access. No password is needed; a one-time code will be sent after the secure service is connected."
+  },
+  "NGO": {
+    "title": "For verified organisations",
+    "intro": "Growity verifies an organisation's registration and recognition documents before account access is granted.",
+    "directoryTitle": "Verified NGOs",
+    "directoryIntro": "This directory is public and read-only. Only verified organisations appear here.",
+    "emptyDirectory": "No verified organisations are listed yet.",
+    "saaBadge": "Recognised Specialised Adoption Agency",
+    "cciBadge": "Registered child care institution",
+    "loginTitle": "NGO sign-in",
+    "verificationRequired": "An administrator must verify your registration number and recognition documents before you can log in.",
+    "emailOtp": "Continue with email code",
+    "onboardingConsent": "I accept the NGO Terms and agree to submit accurate records, keep recognition details current, follow funding rules, and cooperate with audits.",
+    "dashboardTitle": "Approved NGO workspace",
+    "addChildTitle": "Record a child entry",
+    "childPublicCode": "Non-identifying public code",
+    "cwcOrderNumber": "Child Welfare Committee order number",
+    "childStatus": "Current care status",
+    "addChild": "Add child entry",
+    "childCreated": "The child entry was recorded.",
+    "countsTitle": "Submit new-entry counts",
+    "reportPeriod": "Reporting period",
+    "newEntryCount": "Number of new entries",
+    "submitCounts": "Submit counts",
+    "complianceTitle": "Recognition and compliance documents",
+    "renewalDate": "Recognition renewal date",
+    "fundingTitle": "Funding request",
+    "amount": "Requested amount in rupees",
+    "purpose": "Purpose",
+    "supportFile": "Supporting document",
+    "submitFunding": "Submit funding request",
+    "ngoActionSuccess": "Your request was recorded for authorised review.",
+    "ngoActionError": "This action could not be completed. Check your access and try again.",
+    "featuresTitle": "Approved NGO account features",
+    "features": [
+      "Add a child entry only when a CWC order number is recorded.",
+      "Submit counts of new entries.",
+      "Upload compliance documents and track recognition renewal dates.",
+      "Send funding requests with supporting documents."
+    ],
+    "privacyWarning": "An NGO can see only its own child records. NGO staff cannot see complaints made by children in their care.",
+    "fundingApproval": "Each funding request needs approval from two different administrators. Every change is logged.",
+    "statusInCare": "In care",
+    "statusFosterCare": "Foster care",
+    "uploadType": "Document type",
+    "recognitionDocument": "Recognition document",
+    "complianceDocument": "Compliance document",
+    "fundingSupportDocument": "Funding support document",
+    "documentConsent": "I consent to uploading this file. It can be seen only by authorised staff for my verified organisation.",
+    "dashboardRenewal": "Recognition renewal date",
+    "dashboardChildren": "Our child entries",
+    "dashboardNoChildren": "No child entries have been recorded for this organisation.",
+    "dashboardReports": "Monthly entry-count reports",
+    "dashboardNoReports": "No monthly count reports are available yet.",
+    "dashboardDocuments": "Organisation documents",
+    "dashboardNoDocuments": "No private documents have been uploaded yet.",
+    "dashboardFunding": "Funding requests",
+    "dashboardNoFunding": "No funding requests have been submitted yet.",
+    "dashboardStatus": "Status",
+    "dashboardSubmitted": "Submitted",
+    "fundingStatuses": [
+      "Submitted",
+      "Under review",
+      "Approved",
+      "Rejected",
+      "Paid"
+    ],
+    "uploadFundingFirst": "Upload a funding support document before submitting a request."
+  },
+  "Team": {
+    "title": "Growity Team sign-in",
+    "intro": "Staff access is granted by an administrator and limited to assigned duties. Multi-factor authentication is required.",
+    "rolesTitle": "Team roles",
+    "roles": [
+      {
+        "name": "Verification team",
+        "description": "Verifies parent documents and records in-person checks."
+      },
+      {
+        "name": "Caseworker",
+        "description": "Sees assigned cases, creates child accounts, schedules counselling after a CARINGS referral, and records staff-only compatibility notes."
+      },
+      {
+        "name": "Protection officer",
+        "description": "Handles child complaints and sees assigned or on-call complaints. NGO staff cannot hold this role."
+      },
+      {
+        "name": "Grievance committee",
+        "description": "The only role that can read staff grievances."
+      },
+      {
+        "name": "Admin",
+        "description": "Manages accounts and NGOs but cannot read complaints or grievances and cannot bulk-export data."
+      }
+    ],
+    "grievanceTitle": "Staff grievance",
+    "grievanceDescription": "Report corruption, harassment, or inconvenience. You may submit anonymously. The grievance committee alone can read the report; it is hidden from the person named.",
+    "directoryPrivacy": "The staff directory is visible only to administrators and the staff member themselves.",
+    "login": "Staff sign-in",
+    "mfa": "Multi-factor authentication is required for every staff account.",
+    "mfaPrompt": "Enter the code from your authenticator app to finish signing in.",
+    "mfaCodeLabel": "Authenticator code",
+    "mfaVerified": "Your staff sign-in is verified.",
+    "mfaEnrollmentTitle": "Set up your authenticator app",
+    "mfaEnrollmentInstructions": "Scan the QR code with an authenticator app, or enter the setup key manually. Then enter the six-digit code it creates.",
+    "mfaSecretLabel": "Manual setup key",
+    "mfaEnrollButton": "Verify authenticator setup",
+    "childOnboardingQueueTitle": "New child account requests",
+    "noChildOnboardingRequests": "There are no pending child account requests.",
+    "adultIdentityQueueTitle": "Adult after-care identity checks",
+    "noAdultIdentityRequests": "There are no pending adult identity requests.",
+    "ageRangeLabel": "Age range",
+    "safeContactLabel": "Safe contact",
+    "identityDecision": "Identity decision",
+    "markVerified": "Mark verified",
+    "markRejected": "Mark rejected",
+    "completeChildAccount": "Create account and show handoff details",
+    "childAccountCreatedOnce": "Account created. Record these handoff details now; they will not be shown again.",
+    "handoffCode": "Short code",
+    "handoffPin": "One-time 6-digit PIN",
+    "handoffWarning": "Show these details only to the person receiving the account. Do not copy them into a general note or send them by email.",
+    "grievanceCategories": [
+      "Corruption",
+      "Harassment",
+      "Inconvenience"
+    ],
+    "anonymousLabel": "Submit anonymously. The grievance committee will not see who submitted it.",
+    "personNamed": "Person named in this report (optional)",
+    "grievanceDetails": "What happened? Do not include a child's personal information unless it is needed to report the concern.",
+    "submitGrievance": "Send confidential grievance",
+    "grievanceSuccess": "Your grievance was sent only to the grievance committee.",
+    "dashboardTitle": "Private staff workspace",
+    "assignedCases": "Assigned work",
+    "claimFoster": "Claim the next fostering interest",
+    "noUnassignedFosterInterests": "No unassigned fostering interest is available right now.",
+    "noAssignedCases": "No assigned records are available.",
+    "childLockoutTitle": "Child PIN lockouts",
+    "childLockoutDescription": "A child code locks after 10 failed PIN attempts. Reset it only after confirming the child's identity in person.",
+    "resetChildLockout": "Reset lockout",
+    "caseQueueTitle": "Assigned child and family records",
+    "childDocumentsTitle": "Assigned child documents",
+    "supportRequestsQueueTitle": "Assigned support requests",
+    "complaintQueueTitle": "Assigned child-safety reports",
+    "emergencyOverdue": "Emergency follow-up overdue",
+    "noComplaints": "No assigned reports are available.",
+    "agreementTitle": "Staff Code of Conduct and Confidentiality Agreement",
+    "agreementBody": "Use child, family, complaint, and staff information only for your assigned work. Keep records confidential, do not share credentials, and report safety concerns through the authorised process. Your acceptance is recorded with this version and date.",
+    "agreementConsent": "I have read the Staff Code of Conduct and Confidentiality Agreement and will follow it.",
+    "acceptAgreement": "Accept and continue",
+    "agreementRequired": "Accept the Staff Code of Conduct before opening the staff workspace or submitting a grievance.",
+    "workspaceUnavailable": "Your secure staff workspace could not be checked. No private records were shown.",
+    "openDashboard": "Open my assigned workspace",
+    "complaintDetails": "Report details",
+    "deadline": "Follow-up deadline",
+    "outcomeContact": "Who was contacted?",
+    "outcomeWhen": "When were they contacted? (India time, IST)",
+    "outcomeMethod": "How were they contacted?",
+    "outcomeNotes": "Outcome notes",
+    "recordOutcome": "Record emergency outcome",
+    "recordEvent": "Record update",
+    "grievanceQueueTitle": "Confidential grievances",
+    "grievanceQueueEmpty": "No grievances are assigned to this committee.",
+    "claimGrievance": "Claim next confidential report",
+    "noUnassignedGrievances": "No unassigned reports are available right now.",
+    "markReviewing": "Mark under review",
+    "markResolved": "Mark resolved",
+    "staffDirectory": "Staff directory",
+    "approveNgo": "Verify NGO",
+    "rejectNgo": "Do not verify",
+    "approveFunding": "Record approval",
+    "rejectFunding": "Reject request",
+    "firstApproval": "One approval is recorded. A different administrator must provide the second approval.",
+    "twoApprovalsComplete": "Both distinct administrator approvals are recorded.",
+    "adminNoCases": "Administrators do not have access to complaints or staff grievances.",
+    "fosterQueueTitle": "Fostering interest follow-up",
+    "forwardDcpu": "Forwarded to district child protection unit",
+    "cwcDecision": "Child Welfare Committee decision",
+    "createChildAccount": "Create a child account (assisted onboarding)",
+    "childLegalName": "Legal name (staff only)",
+    "childDob": "Date of birth",
+    "childBackground": "Background (staff only)",
+    "childPin": "Set a temporary 6-digit PIN in person",
+    "guardianConsent": "Verifiable guardian consent has been obtained and recorded.",
+    "createChild": "Create child account",
+    "childAccountCreated": "The child's account and case record were created.",
+    "firstLoginAgreement": "Staff Code of Conduct and Confidentiality Agreement",
+    "staffAgreementConsent": "I will protect confidential information and access only records assigned to my role.",
+    "caseManagementUnavailable": "This role-specific tool is not connected for this account.",
+    "childPublicCode": "Child short code",
+    "childLanguage": "Child page language",
+    "childLanguageOptions": [
+      {
+        "value": "en",
+        "label": "English"
+      },
+      {
+        "value": "hi",
+        "label": "Hindi"
+      }
+    ],
+    "applicationRecord": "Assigned family record",
+    "childRecord": "Referred child record",
+    "childDocumentTypeOptions": [
+      {
+        "value": "education",
+        "label": "Education record"
+      },
+      {
+        "value": "care_record",
+        "label": "Care record"
+      }
+    ],
+    "trackerStep": "Status step to record",
+    "trackerStepOptions": [
+      {
+        "value": "documents_submitted",
+        "label": "Documents submitted"
+      },
+      {
+        "value": "documents_verified",
+        "label": "Documents verified"
+      },
+      {
+        "value": "in_person_check",
+        "label": "In-person check done"
+      },
+      {
+        "value": "carings_registered",
+        "label": "CARINGS registration recorded"
+      },
+      {
+        "value": "home_study_done",
+        "label": "Home study done"
+      },
+      {
+        "value": "child_referred",
+        "label": "Child referred by CARINGS"
+      },
+      {
+        "value": "child_reserved",
+        "label": "Child reserved"
+      },
+      {
+        "value": "pre_adoption_foster_care",
+        "label": "Pre-adoption foster care"
+      },
+      {
+        "value": "adoption_order_issued",
+        "label": "Adoption order issued"
+      },
+      {
+        "value": "post_adoption_follow_up",
+        "label": "Post-adoption follow-up"
+      }
+    ],
+    "stepDate": "Date of this step",
+    "caringsRegistrationNumber": "CARINGS registration number",
+    "referralReference": "Official CARINGS referral reference",
+    "adoptionOrderNumber": "District Magistrate adoption order number",
+    "adoptionOrderDate": "Adoption order date",
+    "recordTrackerStep": "Record tracker step",
+    "verifyDocument": "Mark verified",
+    "rejectDocument": "Mark rejected",
+    "documentVerification": "Parent document verification",
+    "parentDocumentStatusOptions": [
+      {
+        "value": "submitted",
+        "label": "Submitted"
+      },
+      {
+        "value": "verified",
+        "label": "Verified"
+      },
+      {
+        "value": "rejected",
+        "label": "Needs follow-up"
+      }
+    ],
+    "meetingType": "Meeting type",
+    "meetingTypeOptions": [
+      {
+        "value": "counselling",
+        "label": "Counselling"
+      },
+      {
+        "value": "meeting",
+        "label": "Meeting"
+      }
+    ],
+    "meetingStartsAt": "Date and time after CARINGS referral (India time, IST)",
+    "meetingLocation": "Meeting location or contact arrangement",
+    "scheduleMeeting": "Schedule meeting",
+    "compatibilityNoteLabel": "Staff-only compatibility note",
+    "saveCompatibilityNote": "Save confidential note",
+    "childReferrals": "Officially referred child records",
+    "caseMeetings": "Scheduled counselling and meetings",
+    "meetingStatusScheduled": "Scheduled",
+    "noMeetings": "No meetings are scheduled for this referral.",
+    "complaintContactOptions": [
+      {
+        "value": "police_unit",
+        "label": "Police unit"
+      },
+      {
+        "value": "childline_1098",
+        "label": "Childline 1098"
+      },
+      {
+        "value": "cwc",
+        "label": "Child Welfare Committee"
+      },
+      {
+        "value": "other",
+        "label": "Other authorised contact"
+      }
+    ],
+    "complaintMethodOptions": [
+      {
+        "value": "phone",
+        "label": "Phone"
+      },
+      {
+        "value": "in_person",
+        "label": "In person"
+      },
+      {
+        "value": "email",
+        "label": "Email"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ],
+    "supportStatusOptions": [
+      {
+        "value": "open",
+        "label": "Open"
+      },
+      {
+        "value": "reviewing",
+        "label": "Under review"
+      },
+      {
+        "value": "resolved",
+        "label": "Resolved"
+      },
+      {
+        "value": "closed",
+        "label": "Closed"
+      }
+    ],
+    "emergencyRequired": "Record who was contacted, when, and how before closing an emergency report.",
+    "fosterStatusOptions": [
+      {
+        "value": "pending",
+        "label": "Pending"
+      },
+      {
+        "value": "contacted",
+        "label": "Contacted"
+      },
+      {
+        "value": "forwarded",
+        "label": "Forwarded to DCPU"
+      },
+      {
+        "value": "closed",
+        "label": "Closed"
+      }
+    ],
+    "forwardedToDcpuLabel": "Forwarded to the district child protection unit",
+    "forwardedOptions": [
+      {
+        "value": "yes",
+        "label": "Yes"
+      },
+      {
+        "value": "no",
+        "label": "No"
+      }
+    ],
+    "ngoVerificationStatus": "Verification status",
+    "ngoVerificationOptions": [
+      {
+        "value": "verified",
+        "label": "Verified"
+      },
+      {
+        "value": "suspended",
+        "label": "Suspended"
+      },
+      {
+        "value": "rejected",
+        "label": "Rejected"
+      }
+    ],
+    "fundingDecisionOptions": [
+      {
+        "value": "approve",
+        "label": "Approve or record next approval"
+      },
+      {
+        "value": "reject",
+        "label": "Reject"
+      }
+    ],
+    "staffSubRoleOptions": [
+      {
+        "value": "verification_team",
+        "label": "Verification team"
+      },
+      {
+        "value": "caseworker",
+        "label": "Caseworker"
+      },
+      {
+        "value": "protection_officer",
+        "label": "Protection officer"
+      },
+      {
+        "value": "grievance_committee",
+        "label": "Grievance committee"
+      },
+      {
+        "value": "admin",
+        "label": "Administrator"
+      }
+    ],
+    "staffSubRole": "Staff sub-role",
+    "updateRole": "Update assigned sub-role",
+    "assignedTo": "Assigned to your role",
+    "callUnit": "Contacted organisation",
+    "outcomeRecorded": "Emergency outcome recorded",
+    "complaintOverdue": "This emergency report is past its 24-hour deadline.",
+    "noParentDocuments": "No assigned parent documents need review.",
+    "noChildrenAssigned": "No child records are assigned to this account.",
+    "parentDocumentTypeOptions": [
+      {
+        "value": "identity",
+        "label": "Identity document"
+      },
+      {
+        "value": "address",
+        "label": "Address proof"
+      },
+      {
+        "value": "income",
+        "label": "Income proof"
+      },
+      {
+        "value": "medical",
+        "label": "Medical report"
+      },
+      {
+        "value": "police_verification",
+        "label": "Police verification"
+      }
+    ],
+    "applicationStatusOptions": [
+      {
+        "value": "draft",
+        "label": "Draft"
+      },
+      {
+        "value": "submitted",
+        "label": "Documents submitted"
+      },
+      {
+        "value": "verified",
+        "label": "Documents verified"
+      },
+      {
+        "value": "in_person_check",
+        "label": "In-person check done"
+      },
+      {
+        "value": "home_study",
+        "label": "Home study done"
+      },
+      {
+        "value": "referred",
+        "label": "Child referred"
+      },
+      {
+        "value": "reserved",
+        "label": "Child reserved"
+      },
+      {
+        "value": "pre_adoption_care",
+        "label": "Pre-adoption foster care"
+      },
+      {
+        "value": "order_issued",
+        "label": "Adoption order issued"
+      },
+      {
+        "value": "follow_up",
+        "label": "Post-adoption follow-up"
+      },
+      {
+        "value": "closed",
+        "label": "Closed"
+      }
+    ],
+    "supportTopicOptions": [
+      {
+        "value": "foster_care",
+        "label": "Foster care or support"
+      },
+      {
+        "value": "other_support",
+        "label": "Other support"
+      }
+    ],
+    "complaintCategoryOptions": [
+      {
+        "value": "abuse",
+        "label": "Abuse"
+      },
+      {
+        "value": "harassment",
+        "label": "Harassment"
+      },
+      {
+        "value": "neglect",
+        "label": "Neglect"
+      },
+      {
+        "value": "food_health",
+        "label": "Food or health"
+      },
+      {
+        "value": "education",
+        "label": "Education"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ],
+    "urgencyOptions": [
+      {
+        "value": "emergency",
+        "label": "Emergency"
+      },
+      {
+        "value": "serious",
+        "label": "Serious"
+      },
+      {
+        "value": "normal",
+        "label": "Normal"
+      }
+    ],
+    "grievanceCategoryOptions": [
+      {
+        "value": "corruption",
+        "label": "Corruption"
+      },
+      {
+        "value": "harassment",
+        "label": "Harassment"
+      },
+      {
+        "value": "inconvenience",
+        "label": "Inconvenience"
+      }
+    ],
+    "grievanceStatusOptions": [
+      {
+        "value": "open",
+        "label": "Open"
+      },
+      {
+        "value": "reviewing",
+        "label": "Under review"
+      },
+      {
+        "value": "resolved",
+        "label": "Resolved"
+      },
+      {
+        "value": "closed",
+        "label": "Closed"
+      }
+    ],
+    "anonymous": "Anonymous",
+    "identified": "Identified submission",
+    "ngoRecognitionTypeOptions": [
+      {
+        "value": "saa",
+        "label": "Recognised Specialised Adoption Agency"
+      },
+      {
+        "value": "cci",
+        "label": "Registered child care institution"
+      }
+    ],
+    "ngoStatusOptions": [
+      {
+        "value": "pending",
+        "label": "Pending"
+      },
+      {
+        "value": "verified",
+        "label": "Verified"
+      },
+      {
+        "value": "suspended",
+        "label": "Suspended"
+      },
+      {
+        "value": "rejected",
+        "label": "Rejected"
+      }
+    ],
+    "fundingStatusOptions": [
+      {
+        "value": "submitted",
+        "label": "Submitted"
+      },
+      {
+        "value": "under_review",
+        "label": "Under review"
+      },
+      {
+        "value": "approved",
+        "label": "Approved"
+      },
+      {
+        "value": "rejected",
+        "label": "Rejected"
+      },
+      {
+        "value": "paid",
+        "label": "Paid"
+      }
+    ],
+    "staffMember": "Staff member",
+    "verifiedDirectoryAdmin": "NGO verification and records",
+    "registrationNumber": "Registration number",
+    "recognitionNumber": "Recognition number",
+    "recognitionDate": "Recognition date",
+    "renewalDate": "Recognition renewal date",
+    "fundingQueueTitle": "Funding requests (two separate administrator approvals)",
+    "fundingPurpose": "Purpose",
+    "fundingAmount": "Requested amount",
+    "approvalCount": "Distinct approvals recorded",
+    "selectDecision": "Select a decision"
+  },
+  "Help": {
+    "title": "Help and contact",
+    "intro": "For urgent child-safety concerns, call Childline 1098. Growity is not an emergency service.",
+    "faqTitle": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "Does Growity arrange adoptions?",
+        "answer": "No. Growity is not an adoption agency and cannot choose, refer, place, or grant an adoption. Legal adoption happens through CARINGS, recognised agencies, Child Welfare Committees, and the District Magistrate."
+      },
+      {
+        "question": "Can parents browse children on this website?",
+        "answer": "No. Child information is shown only after an official CARINGS referral and only to the referred family and authorised staff. Child media is not shown before the adoption order is recorded."
+      },
+      {
+        "question": "How do I report a child-safety concern?",
+        "answer": "Call Childline 1098, free 24x7. A child with a Growity account may also make a confidential report. Contact local emergency services if there is immediate danger."
+      },
+      {
+        "question": "Who can see a child's complaint?",
+        "answer": "Only authorised protection staff assigned or on call for the complaint. NGO staff, foster families, accused people, and other staff cannot see it."
+      },
+      {
+        "question": "Can I get legal advice here?",
+        "answer": "No. Growity shares general information only. Please contact a qualified legal professional or the relevant public authority."
+      },
+      {
+        "question": "How can I request my data?",
+        "answer": "Adults who have left care may view or download their own data and ask staff to delete non-legally-required information. Some minimal legal records must be retained for a period still to be set by a lawyer."
+      }
+    ],
+    "contactTitle": "Contact Growity",
+    "contactBody": "For account access, records, or general questions, contact the Growity team using the address provided by your local programme. Do not send child complaint details or documents by ordinary email."
+  },
+  "Policies": {
+    "titles": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "child-safety": "Child Safety and Reporting Policy",
+      "parent-terms": "Parent Terms and Declaration",
+      "ngo-terms": "NGO Terms",
+      "staff-code": "Staff Code of Conduct and Confidentiality Agreement",
+      "complaints": "Complaints and Grievance Policy",
+      "retention": "Data Retention and Deletion Policy",
+      "cookies": "Cookie Notice",
+      "disclaimer": "Disclaimer"
+    },
+    "terms": "Use Growity only through an account authorised for you. Keep your sign-in details private and submit accurate information. Do not seek private adoption arrangements, browse children, or share another person’s records. Official adoption decisions are made by the authorities responsible under law.",
+    "privacy": "Growity uses information to provide the service requested. Access is separated by role and assigned work; private documents are stored in restricted storage, and sensitive access is logged. You may request a copy of your own data and request deletion where allowed. Some records may have to be retained under law. Growity does not publish children’s private records or use them for advertising.",
+    "child-safety": "If a child is in immediate danger, call Childline 1098 or local emergency services. Reports in Growity are for authorised protection staff who need to respond. Growity is not an emergency service and does not replace legal reporting duties. Volunteers, NGOs, foster families, and people named in a report cannot read a child’s confidential complaint.",
+    "parent-terms": "Parent users must submit true documents, consent to checks and home visits required by the official process, and use CARINGS and public authorities for adoption. No private adoption or child browsing is permitted through Growity.",
+    "ngo-terms": "NGOs must provide accurate information, record a CWC order number for every child entry, keep recognition and compliance records current, follow funding rules, and cooperate with audits. NGO staff cannot access children's complaints.",
+    "staff-code": "Staff must protect confidential information, access only assigned cases, document relevant actions, preserve complaint confidentiality, and report corruption, harassment, or inconvenience through the grievance process. Administrators do not receive complaint or grievance access by default.",
+    "complaints": "Child complaints are visible only to assigned or on-call protection officers. Emergency reports require prompt action, a 24-hour outcome record, and a record of who was contacted, when, and how. Staff grievances are available only to the grievance committee.",
+    "retention": "Adults who have left care can access and download their own data and request deletion of non-legally-required data for staff review. Minimal legal records remain locked for a period to be set by a lawyer, and are read only following a logged written legal request. Children's data requires verifiable guardian consent.",
+    "cookies": "Growity uses authentication cookies and essential session storage when secure account features are connected. Do not use optional tracking or advertising cookies in the child-safety areas.",
+    "disclaimer": "Growity is not an adoption agency, does not choose or place a child, does not grant an adoption, and does not provide legal advice. Legal adoption happens only through CARA's CARINGS portal, recognised Specialised Adoption Agencies, Child Welfare Committees, and the District Magistrate. Verify legal dates with the official gazette.",
+    "publicNotice": "Plain-language information about this website. It is not legal advice or an official adoption decision."
+  },
+  "Volunteering": {
+    "title": "Volunteering with verified partners",
+    "intro": "Universities and registered organisations can ask about supervised community activities hosted with verified partners. Volunteering never gives access to a child’s case, documents, contact details, or private reports.",
+    "eligibilityTitle": "Who can apply",
+    "eligibility": "A coordinator from a registered university or organisation should contact a verified NGO or the Growity Team. The host must confirm the organisation, volunteer screening, training, and safeguarding plan before any activity involving children is approved.",
+    "activitiesTitle": "Possible supervised activities",
+    "activities": [
+      "Group games, arts, reading, and age-appropriate entertainment with host staff present.",
+      "Structured mentoring or learning sessions approved by the host and delivered with trained adult supervision.",
+      "Cleaning drives and community-care activities on host premises, without access to private records or child contact details.",
+      "Other group social activities for young people after the verified host approves the plan."
+    ],
+    "safetyTitle": "Safeguards",
+    "safeguards": [
+      "Child-facing activity requires a verified host, identity/background checks, safeguarding orientation, and continuous host supervision.",
+      "No unsupervised or private one-to-one contact, private messaging, photography, or sharing a child’s story.",
+      "Volunteers never see children’s records, complaint details, case status, or contact information.",
+      "A child can decline to participate. Report any concern to the host protection lead or call 1098 for urgent help."
+    ],
+    "recognitionTitle": "Participation points and certificates",
+    "recognition": "Recognition depends on attendance confirmed by the verified host and its written rules. Participation points and certificates are not guaranteed; Growity does not currently calculate points or issue certificates or academic credit.",
+    "academicNote": "Only your university or course authority can decide whether any activity counts toward a degree. Confirm its written rules before volunteering; Growity cannot guarantee or award academic credit.",
+    "nextTitle": "How to get started",
+    "next": "Ask your university or registered organisation to nominate a coordinator, then contact a verified NGO or the Growity Team. Do not visit a child-care site or contact a child unless the verified host has approved and scheduled the activity.",
+    "directoryLink": "View verified NGOs",
+    "helpLink": "Read help and FAQs"
+  }
+}

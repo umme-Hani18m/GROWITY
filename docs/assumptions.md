@@ -1,0 +1,32 @@
+# Growity assumptions and unfinished work
+
+## Assumptions made
+
+- The approved scope is a website (not a native mobile app) built with Next.js App Router, strict TypeScript, Tailwind CSS, Supabase Auth/PostgreSQL/Storage, Zod, and next-intl, with Vercel as the deployment target.
+- Only English and Hindi are enabled for testing. Other language registry entries remain disabled until native speakers review child-safety, consent, helpline, and legal text. No unreviewed machine translation is shown to users.
+- The only seed records are clearly fake placeholders with `.invalid` email domains, `TEST ONLY` labels, and impossible-to-mistake fake order/registration references. No auth users, working credentials, real names, photographs, or documents are seeded.
+- The referenced PDF is not present in the current workspace. Keep the slideshow placeholders until the operator reuploads it and image licensing, model releases, child-safety suitability, and accessible alt text are verified. No stock or AI-generated image is used.
+- The legal facts/dates were supplied in the brief and have not been independently checked. Year-only dates and the exact-gazette verification note should be retained. Public policies explain current service practices in plain language without claiming legal certification; legal and policy review remains a launch prerequisite.
+- No donation feature, public dashboard, officer-oversight login, low-data mode, public case browsing, or child-search function has been added.
+- Development Supabase project credentials are present in the protected Webdev environment. The supplied URL included the standard `/rest/v1/` suffix; the client now normalizes only that known suffix on a Supabase Cloud host. A read-only Auth probe using a deliberately invalid address and `shouldCreateUser=false` returned HTTP 422, with no account or email created/sent. This does not verify real inbox delivery, database access, or production credentials. No table query or database write was performed. Turnstile, custom Auth SMTP, SMS, on-call mailbox, and Vercel production are not verified/configured here.
+
+## Unfinished or release-blocking work
+
+1. **Legal review and retention:** `[RETENTION PERIOD TO BE SET BY A LAWYER]` is unresolved. A lawyer must decide the statutory retention schedule and review the supplied legal dates, consent language, privacy/terms, deletion process, and child-safety policies before real personal data is collected.
+2. **Minimal locked legal record:** the current child/parent schema does not yet implement a dedicated locked legal-record model for exact dates in care and adoption-order references for an adult-after-care person, nor a lawyer-approved retention-until rule. The after-care view displays only fields already present and user-owned records; it must not be represented as complete legal records access until this model is reviewed and added.
+3. **External identity and delivery providers:** The Development Supabase Auth endpoint accepts requests, but email OTP delivery is not end-to-end verified because custom SMTP and the numeric OTP email template still need configuration. Staff MFA enforcement, inactivity timeout, guardian-consent verification, in-person adult identity verification, Turnstile, emergency email delivery, and optional SMS OTP also require provider configuration and end-to-end testing. Until then, sensitive integrations must fail closed and the site must not be used with real data.
+4. **Emergency operations:** on-call contacts, escalation procedures, alert delivery, 24-hour case-response staffing, and district/police/CWC handoffs require an operational owner and test run using synthetic complaints only. No alert should include a child's complaint text or personal details.
+5. **Independent testing:** the access-control checklist is specified but not executed because no isolated Supabase test project, fake account matrix, or file fixtures were provisioned. Run it only in a disposable test project and remediate every failure before production.
+6. **Security and accessibility review:** conduct independent RLS/storage review, threat modeling, dependency/vulnerability review, session/cookie verification in the embedded HTTPS Preview and Vercel, keyboard/screen-reader checks, and WCAG 2.2 AA review at 360px and desktop widths.
+7. **Operational readiness:** configure backups, incident response, data-subject request handling, staff vetting and role assignment, onboarding/offboarding, security monitoring, and a tested restore procedure before handling any real records.
+8. **Provider-specific configuration:** set domain-specific Supabase redirect URLs, MFA and session policy, custom SMTP provider/sender, numeric `{{ .Token }}` email template, Turnstile hostnames, Resend sender/recipient, and SMS provider (if enabled); do not use the example `.invalid` addresses or placeholder keys. Any future real-account verification must use a disposable test identity with explicit recipient consent.
+9. **Volunteer operations:** the volunteering pathway explains supervised activities and the limits of academic credit, but Growity does not yet operate a volunteer registration queue, attendance ledger, point calculation, or certificate-issuance workflow. Do not promise points or certificates until approved partners, safeguarding controls, and the recording/issuance workflow are configured.
+
+## Security review notes
+
+- The final static review identified and corrected two authorization gaps: an admin's direct self-profile update is denied by RLS, and staff grievances are visible only to the MFA-verified reviewer who claims the item. Assignment is atomic; unassigned grievance content is not returned to the committee queue. These controls still require execution of the matching cases in the isolated backend checklist.
+- Quick Exit immediately replaces the visible page content, starts local sign-out, navigates to a neutral page using replacement navigation, and uses a per-tab latch to redirect if a sensitive route is restored by Back/forward navigation. Browser history behavior must still be tested across supported browsers; browser history cannot be erased wholesale by a website.
+
+## Safety boundary
+
+Do not enter real child, family, staff, complaint, foster-interest, adoption, identity, medical, financial, or NGO compliance data until the blockers above are completed and the system passes a separately reviewed security and legal release process. A successful local build, typecheck, or static policy scan is not production approval.
